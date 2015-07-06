@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.1 FATAL_ERROR)
+cmake_minimum_required (VERSION 2.8 FATAL_ERROR)
 project (SLib)
 
 # The version number.
@@ -12,5 +12,5 @@ add_library(SLb slib.cpp)
 
 # c++11 compat
 
-set_property(TARGET ${prj} PROPERTY CXX_STANDARD 11)
-set_property(TARGET ${prj} PROPERTY CXX_STANDARD_REQUIRED ON)
+# set_property(TARGET ${prj} PROPERTY CXX_STANDARD 11)
+# set_property(TARGET ${prj} PROPERTY CXX_STANDARD_REQUIRED ON)
